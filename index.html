@@ -8,15 +8,33 @@
     <link rel="stylesheet" href="dist/style.css">
     <title>Spotify</title>
 </head>
-<body>
+<body class="bg-gradient-to-r from-blue-300 to-black">
+
+
+<div class=" bg-gray-300 "><div class="container h-screen flex justify-center items-center">
+        git<div class="p-8 bg-black rounded-lg max-w-6xl pb-10">
+            <div class="flex justify-center mb-4"> <img src="Spotify_Logo_White.jpg" width="200"> </div>
+            <input type="text" class="h-12 rounded w-full border px-3 focus:text-black focus:border-blue-100" placeholder="Email"> <input type="text" class="h-12 mt-3 rounded w-full border px-3 focus:text-black focus:border-blue-100" placeholder="Password">
+            <div class="flex justify-start items-center mt-2"> <a href="#" class=" underline text-gray-400 hover:text-gray-600">Reset Password</a> </div> <button class="uppercase h-12 mt-3 text-black w-full rounded bg-white ">login</button>
+            <div class="flex justify-between items-center mt-3">
+                <hr class="w-full"> <span class="p-2 text-gray-400 mb-1">OR</span>
+                <hr class="w-full">
+            </div>
+            <button class=" h-12 mt-3 text-white w-full rounded bg-blue-800 hover:bg-black"><i class="fa fa-facebook mr-2"></i>Continue with Facebook</button> <button class=" h-12 mt-3 text-white w-full rounded bg-black "><i class="fa fa-google mr-2"></i> Continue with Google</button>
+        </div>
+    </div>
+</div>
+
+
+<-- !start of homepage-->
 <div class="bg-gray-900 h-screen">
     <div class="flex h-5/6">
         <!-- left navigation menu -->
-        <div class="sidebar bg-black w-52 h-full flex-none overflow-y-auto">
+        <div class="sidebar bg-black w-52 h-full flex-none ">
             <div class="mx-2">
                 <button class="w-full rounded px-3 pt-10 py-2 flex items-center justify-start">
                     <img src="images/icons/home_white_24dp.svg" alt="home">
-                    <a href="index.html" class="pl-5 text-white">House</a>
+                    <a href="index.html" class="pl-5 text-white">Home</a>
                 </button>
                 <button class="w-full rounded px-3 py-2 flex items-center justify-start">
                     <img src="images/icons/search_white_24dp.svg" alt="search">
@@ -60,7 +78,7 @@
         <!-- main section begin -->
         <div class="w-full h-full relative">
             <!-- fixed header -->
-            <div class="bg-gradient-to-t w-full sticky top-0 py-4 p-6 flex items-center justify-between">
+            <div class="w-full sticky top-0 py-4 p-6 flex items-center justify-between">
 
                 <div class="flex items-center">
                     <!-- arrow_left -->
@@ -91,13 +109,13 @@
             <!--//fixed header end -->
             <!-- body begin -->
             <div>
-                <div class="bg-gray-800 px-6 py-3 flex items-center">
+                <div class=" px-6 py-3 flex items-center">
                     <h1 class="font-extrabold text-white hover:underline">Good Afternoon</h1>
                 </div>
 
-                <div class="bg-gray-800 grid grid-cols-3 p-16 gap-8 justify-evenly">
+                <div class=" grid grid-cols-3 p-16 gap-8 justify-evenly">
                     <div>
-                        <div class="bg-gray-500 bg-opacity-20 h-20 flex justify-start items-center rounded-md text-white">
+                        <div class="  h-20 flex justify-start items-center rounded-md text-white">
                             <img src="images/covers/2001-dr.dre.jpg" alt="dr.dre" class="h-20 w-20 mr-5 rounded-tl-md rounded-bl-md">
                             <h1>Release Radar</h1>
                         </div>
@@ -135,7 +153,7 @@
                 </div>
 
                 <div>
-                    <div class="bg-gray-900 px-6 py-3 flex items-center justify-between">
+                    <div class="px-6 py-3 flex items-center justify-between">
                         <h1 class="font-extrabold text-white hover:underline">Your heavy rotation</h1>
                         <a href="#" class="font-semibold text-white capitalize hover:underline">See More</a>
                     </div>
