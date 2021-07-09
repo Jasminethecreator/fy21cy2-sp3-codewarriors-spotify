@@ -1,52 +1,32 @@
-# Spotify UI/X
-## General Info
-Creating webpages using TailwindCSS for Spotify. 
+Sprint 3: Spotify UI/X Presentation Draft
+# Sprint 3: Spotify UI/X Presentation Draft
 
-## Problem
-A new client heard about the work we did on the ULEMHub website and recommended us to Spotify, a music company.
-They want us to implement their new UI design in TailwindCSS for the 3 website screens below:
-* [Home Screen](https://static.authw.it/000_Home_Screen.png)
-* [Playlist]( https://static.authw.it/001_Playlist.png)
-* [Playlist Details](https://static.authw.it/001_Playlist_2.png)
+## Code fo4r Real
+##Members
 
-## Process and Solution
-We first start by looking at the 3 website screens provided to us to figure out the proper layout.
-We use Balsamiq to sketch out the wireframe designs for each page. It will be used as a guide before we start coding.
-On these pages, we also determine the color palette and styles they want us to include.
+#### Jasmine Bien-Aime
+#### Lady Lawrence
 
-We use JIRA as our project management tool. It will help us with our flow, assign tasks, and keep us in line.
-We split up the work:
-* Header and Play bar of Home Screen, and Playlist Details (David)
-* Side Nav and Body of Home Screen, and Playlist (Gregory)
+## **Problem**
+A new client heard about the work we did on ULEMHub and recommended us to this music company, Spotify — they want us to implement their new UI design in TailwindCSS.
 
-I collected the different icons from 2 websites, because I wasn't able to all of them in one place. I got most from Google Fonts-Material Icons.
-For the album covers, we both love hip hop music, so you'll see a lot of hip hop artists on our pages.
+They want an exact copy of what the UI/X engineer designed for these 3 screens:
 
-Issues that I ran into were sections overlapping each other. Trying to keep the play bar at the bottom. Took awhile to figure it out.
-Also, it was only my second time using tailwind css for a project. I had to play around with the codes/properties/elements placements. So many divs.
-Tailwind CSS website was very helpful.
+Home Screen
+Playlist
+Playlist Details
 
-We made sure the 2 pages are link correctly.
-After completion, it was uploaded to GitHub and deployed on Vercel.
+### **Method**
+We discussed git workflow and what we needed to do to start the project. I decided to break down the main components such as the side bar footer music player and the the colors for the projects for the projects so that it could be consistent with all the rest of the client’s website.
 
-## Languages, Tools, Resources
-* JIRA Project Management
-* Balsamiq Wireframes
-* HTML
-* CSS
-* PhpStorm
-* GitHub
-* Vercel
-* [Tailwind CSS Documentations](https://tailwindcss.com/docs)
-  
-### Icons, Logos, and Album Covers
-* [heroicons.com](https://heroicons.com/)
-* [Google Fonts and Icons](https://fonts.google.com/icons?selected=Material+Icons:home)
-* [musicbrainz.org](https://musicbrainz.org)
 
-## Sources
-* [Spotify.com](https://open.spotify.com/)
 
-## Contributors
-* David Khem [GitHub: davidkhem](https://github.com/davidkhem)
-* Gregory Francis [GitHub: Gregory395](https://github.com/Gregory395)
+## **Process**
+PHPStorm, git hub.com, zoom, Tailwindcss
+
+## **Result+Demo**
+
+I created the home screen layout ,side bar, main body content which includes the music /image selection.
+
+
+I will discuss on demo day  the design layout and the method I use to create the home screen, I will also talk about using flex and grids with tailwindcss.
